@@ -37,9 +37,10 @@ def encode_remote_python_file(file_url):
 
 
 if __name__ == "__main__":
+    #file_path = "/Users/swapna/git/explorations/ai_tools/wikipedia_tool.py"
     #encoded_string = encode_local_python_file(file_path)
 
-    file_path = "https://raw.github.com/swapna-somineni/explorations/main/ai_tools/googlesearch_tool.py"
+    file_path = "https://raw.github.ibm.com/swapna-somineni/explorations/main/ai_tools/googlesearch_tool.py"
     encoded_string = encode_remote_python_file(file_path)
 
     print(encoded_string)
